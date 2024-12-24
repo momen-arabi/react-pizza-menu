@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   color: #252525;
   font-weight: 400;
   background-color: #f7f2e9;
@@ -55,9 +55,9 @@ body {
 .header h1::before,
 .header h1::after {
   display: block;
-  content: '';
+  content: "";
   height: 3px;
-  width: 12rem;
+  width: 4rem;
   background-color: #edc84b;
   position: absolute;
   top: calc(50% - 1px);
@@ -114,6 +114,7 @@ body {
   width: 12rem;
   aspect-ratio: 1;
   align-self: start;
+  border-radius: 0.2rem;
 }
 
 .pizza div {
@@ -138,6 +139,7 @@ body {
 .pizza span {
   display: block;
   font-size: 1.6rem;
+  text-transform: uppercase;
 }
 
 .pizza.sold-out {
@@ -165,13 +167,14 @@ body {
 .btn {
   color: inherit;
   font-family: inherit;
-  border: none;
+  border: 3px solid #252525;
   font-size: 1.4rem;
   font-weight: 500;
   background-color: #edc84b;
   padding: 1.4rem 3.2rem;
   cursor: pointer;
   transition: all 0.2s;
+  border-radius: 0.2rem;
 }
 
 .btn:hover {
